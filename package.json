@@ -1,0 +1,41 @@
+{
+  "name": "focusflow-2026",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,.tsx src",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,md}\"",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "coverage": "c8 --reporter=lcov --reporter=text-summary npm test -- --run"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.9",
+    "dexie": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.14",
+    "c8": "^10.1.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jsdom": "^27.4.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.5.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.5.0",
+    "vite": "^5.2.0",
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^1.0.0"
+  }
+}
